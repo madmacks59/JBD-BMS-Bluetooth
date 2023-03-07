@@ -4,7 +4,9 @@ First, a big thank you to tgalarneau for creating his bms project, which I used 
 build this code. tgalarneau's bms project is a more general purpose project that uses socket or
 mqtt connections. I needed a streamlined mqtt based code set that simply published a single
 mqtt message to a broker, which I will process into a MariaDB database and then display using
-Grafana. His is more sophisticated by far, and you should check it out.
+Grafana. And I only need to process 4 cell (12v) batteries.
+
+His project is more sophisticated by far, and you should check it out.
 
 I've added several features to the python code. 
 
