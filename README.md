@@ -22,14 +22,14 @@ option to use a "one and done" process by passing in a zero (0) for the interval
 
 4) The code has more comments explaining things, and was restructured for more clarity.
 
-==================================================================================================
+=================================================
 
 This code runs fine on the latest Rasperry Pi OS (Bullseye) and is being used on 3b+ and 4b 
 models (1gb 3b+ and 8gb 4b). You will need Python3 installed. You will need bluepy installed.
-And you will need paho installed. And of course you will need a MQTT package and a MQTT 
-broker set up to send the messages to. Other than that, it's straight forward..
+And you will need the paho MQTT package installed. And of course you will need a MQTT broker 
+set up to send the messages to. Other than that, it's straight forward..
 
-==================================================================================================
+=================================================
 
 The code should be run as SUDO as it does low level BLE scanning.
 
