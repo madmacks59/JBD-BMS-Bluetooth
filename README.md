@@ -1,6 +1,6 @@
 # JBD-BMS-Bluetooth
 
-First, a big thank you to tgalarneau for creating his bms project, which I used as a base to
+First, a big thank you to tgalarneau for creating his [bms](https://github.com/tgalarneau/bms) project, which I used as a base to
 build this code. tgalarneau's bms project is a more general purpose project that uses socket or
 mqtt connections. I needed a streamlined mqtt based code set that simply published a single
 mqtt message to a broker, which I will process into a MariaDB database and then display using
