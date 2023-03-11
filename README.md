@@ -61,3 +61,10 @@ If cron is used, at least the process will be kicked off again based on the cron
 process and try to reconnect again, automatically...
 
 You've been warned!
+
+Note: There are two versions of the code, one for a 2 Tempurature BMS and one for 
+a 3 Tempurature BMS. For my purposes I only write 2 sensor values to my database
+so I simply don't include the third sensor in my MQTT message in the 3 Temp version.
+If you want all 3 tempuratures just add the additonal statements in the MQTT build
+message section at the end of the code...I need consistancey between the 6 BMS'
+I run (some with 2 and some with 3).
